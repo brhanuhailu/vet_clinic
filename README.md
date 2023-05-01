@@ -17,7 +17,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
+- [📖 Vet clinic database](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -39,11 +39,10 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Vet clinic database] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+> In this project, I use a relational database to create the initial data structure for a vet clinic.i create a table to store animals' information, insert some data into it, and query it.
+**[Vet clinic database]** is the first project for back end and has around 8 quires.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -90,7 +89,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](<replace-with-your-deployment-URL>)
+- [Not applicable]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +109,7 @@ In order to run this project you need:
 Example command:
 
 ```sh
- gem install rails
+ install postgres
 ```
  -->
 
@@ -123,22 +122,10 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  ghttps://github.com/brhanuhailu/vet_clinic.git
 ```
 --->
 
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
