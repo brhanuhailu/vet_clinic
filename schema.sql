@@ -31,3 +31,22 @@ Alter table animals add constraint FK_species Foreign key (species_id) reference
 Alter table animals add column owner_id int;
 Alter table animals add constraint FK_owners Foreign key (owner_id) references owners(id);
 
+-- Create a table for the vets
+CREATE TABLE vets (
+id SERIAL PRIMARY KEY,
+name varchar(255),
+age integer,
+date_of_graduation date
+);
+
+-- create many-to-many table for species and vets
+CREATE TABLE specializations(vet_id INTEGER REFERENCES vets(id),
+species_id INTEGER REFERENCES species(id),
+CONSTRAINT vet_species_pk PRIMARY KEY(vet_id,species_id) );
+
+-- create table for animals and vet
+CREATE TABLE visits (
+    animal_id INT CONSTRAINT fk_animal_id REFERENCES animals(id),
+    vet_id INT CONSTRAINT fk_visits_vet_id REFERENCES vets(id),
+    visited_date date NOT NULL DEFAULT CURRENT_DATE
+);
