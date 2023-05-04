@@ -32,8 +32,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> The list of tech used in this project are:
-
 <details>
 <summary>Database</summary>
   <ul>
@@ -45,7 +43,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Features application of the projects.
+- Features application of the projects.
 
 - **[Queries data]**
 - **[Schema Database and table]**
@@ -57,8 +55,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> deployment project.
-
 - [Not applicable]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -67,46 +63,40 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> To use the project:
+In order to run this project you need: Open pgadmin or psql using the necessary authentication permission and run.
 
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
+
+
 
 ```sh
  install postgres
 ```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
 
 ```sh
   cd my-folder
   ghttps://github.com/brhanuhailu/vet_clinic.git
 ```
---->
 
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
 
 ```sh
-  rails server
+  run psql or pgAdim 4
 ```
---->
+
 
 ### Run tests
 
