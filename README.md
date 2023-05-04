@@ -8,9 +8,9 @@
 
 This repository includes files with plain SQL that can be used to recreate a database:
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+- Use [schema.sql](https://github.com/brhanuhailu/vet_clinic/blob/dev/schema.sql) to see all created tables.
+- Use [data.sql](https://github.com/brhanuhailu/vet_clinic/blob/dev/data.sql) to populate tables with sample data.
+- Check [queries.sql](https://github.com/brhanuhailu/vet_clinic/blob/dev/queries.sql) for examples of queries that can be run on a newly created database. 
 
 <a name="readme-top"></a>
 
@@ -48,21 +48,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
+> The list of tech used in this project are:
 
 <details>
 <summary>Database</summary>
@@ -75,11 +61,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> Features application of the projects.
 
 - **[Queries data]**
 - **[Schema Database and table]**
-- **[Insert data and relations]**
+- **[diagram relation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +73,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> deployment project.
 
 - [Not applicable]()
 
@@ -97,9 +83,8 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> To use the project:
 
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -151,25 +136,10 @@ Example command:
 ```
 --->
 
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Brhanu Hailu**
 
@@ -195,7 +165,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/brhanuhailu/vet_clinic/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
