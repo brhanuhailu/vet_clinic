@@ -40,9 +40,10 @@ date_of_graduation date
 );
 
 -- create many-to-many table for species and vets
-CREATE TABLE specializations(vet_id INTEGER REFERENCES vets(id),
-species_id INTEGER REFERENCES species(id),
-CONSTRAINT vet_species_pk PRIMARY KEY(vet_id,species_id) );
+CREATE TABLE specializations (
+    species_id INT CONSTRAINT fk_specializations_species_id REFERENCES species(id),
+    vet_id INT CONSTRAINT fk_vet_id REFERENCES vets(id)
+);
 
 -- create table for animals and vet
 CREATE TABLE visits (
