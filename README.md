@@ -121,6 +121,13 @@ Example command:
 - Twitter: [@tigraycountry](https://twitter.com/TigrayCountry)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/brhanu-hailu-85578a246/)
 
+👤 **Nicholas Amissah**
+
+- GitHub: [Nicholas Amissah](https://github.com/atok624)
+- Twitter: [Nicholas Amissah](https://twitter.com/MysticalAmissah)
+- LinkedIn: [Nicholas Amissah](https://twitter.com/MysticalAmissah)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
