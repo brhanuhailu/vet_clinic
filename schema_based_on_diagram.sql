@@ -42,6 +42,13 @@ CREATE TABLE treatments (
     name VARCHAR(255) NOT NULL
 );
 
+CREATE TABLE medical_histories_has_treatments (
+    medical_history_id int REFERENCES medical_histories(id),
+    treatment_id int REFERENCES treatments(id)
+    );
+
+CREATE INDEX ON medical_histories_has_treatments (medical_history_id);
+CREATE INDEX ON medical_histories_has_treatments (treatment_id);
 CREATE INDEX ON invoices_items (invoice_id);
 CREATE INDEX ON invoices_items (treatment_id);
 CREATE INDEX ON invoices (medical_history_id);
