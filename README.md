@@ -71,8 +71,6 @@ In order to run this project you need: Open pgadmin or psql using the necessary 
 In order to run this project you need:
 
 
-
-
 ```sh
  install postgres
 ```
@@ -162,7 +160,7 @@ Feel free to check the [issues page](https://github.com/brhanuhailu/vet_clinic/i
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse
+I would like to thank Microverse and everyone who has contributed to this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
